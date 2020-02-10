@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  color:white;
+  font-size: 60px;
+}
+
+#container{
+  display:grid;
+  border: 1px solid black;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-rows: calc(15.5vh - 10px) calc(31.6vh - 10px) calc(31.7vh - 10px) calc(19.3vh - 10px);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+#container .celda1{
+  padding: 9px;
+  margin: 5%;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:1/5 ;
+  grid-row:1/1 ;
+  text-align: center;
+  color: #B22222;
+}
+
+
+#container .celda2{
+  padding: 9px;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:2/3 ;
+  grid-row: 2/3;
+}
+
+#container .celda2 img{
+  height: 100%;
+  width: 100%;
+}
+
+#container .celda3{
+  padding: 9px;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:3/4 ;
+  grid-row:2/3 ;
+}
+
+#container .celda3 img{
+  height: 100%;
+  width: 100%;
+}
+
+#container .celda4{
+  padding: 9px;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:3/2 ;
+  grid-row:4/3 ;
+}
+
+#container .celda4 img{
+  height: 100%;
+  width: 100%;
+}
+
+#container .celda5{
+  padding: 9px;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:3/4 ;
+  grid-row: 3/3;
+}
+
+#container .celda5 img{
+  height: 100%;
+  width: 100%;
+}
+
+#container .celda6{
+  padding: 9px;
+  margin: 5%;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:1/5 ;
+  grid-row:4/5;
+  text-align: center;
+  color: #B22222;
+}
