@@ -4,7 +4,7 @@
 }
 
 body{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', serif;
   background-color: #000000;
   color:white;
   font-size: 22px;;
@@ -13,7 +13,7 @@ body{
 #container{
   display:grid;
   border: 1px solid black;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 0.6fr 1fr;
   grid-template-rows: calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(10vh - 10px);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
@@ -63,12 +63,13 @@ body{
   border-radius: 5px;
   grid-column:1/4;
   grid-row:3/4;
+  text-align: center;
 }
 
 #container .pie{
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
-  grid-column:1/5;
+  grid-column:2/3;
   grid-row:4/5;
 }

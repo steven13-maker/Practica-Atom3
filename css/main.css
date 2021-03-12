@@ -5,25 +5,28 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #EFEFEF;
-  color:white;
-  font-size: 60px;
+  background-color:#000000;
+  color:black;
+  font-size: 30px;
+  text-shadow: 2px 2px white;
+  text-decoration: underline;
+
 }
 
 #container{
   display:grid;
-  border: 1px solid black;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
-  grid-template-rows: calc(15.5vh - 10px) calc(31.6vh - 10px) calc(31.7vh - 10px) calc(19.3vh - 10px);
+  border-width: 1px;
+  grid-template-columns: 4fr 2fr 2fr 4fr;
+  grid-template-rows: calc(14.5vh - 10px) calc(31.6vh - 10px) calc(31.7vh - 10px) calc(19.3vh - 10px);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
 
 #container .celda1{
-  padding: 9px;
-  margin: 5%;
+  padding: 1px;
+  margin: 2%;
   background-color:#000000;
-  border-radius: 5px;
+  border-radius:5px;
   grid-column:1/5 ;
   grid-row:1/1 ;
   text-align: center;
@@ -32,6 +35,9 @@ body{
 
 
 #container .celda2{
+  border-width: 20px;
+  border-style: ridge;
+  border-color: white;
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
@@ -45,6 +51,9 @@ body{
 }
 
 #container .celda3{
+  border-width: 20px;
+  border-style: ridge;
+  border-color: white;
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
@@ -58,6 +67,9 @@ body{
 }
 
 #container .celda4{
+  border-width: 20px;
+  border-style: groove;
+  border-color: white;
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
@@ -71,6 +83,9 @@ body{
 }
 
 #container .celda5{
+  border-width: 20px;
+  border-style: groove;
+  border-color: white;
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
@@ -85,7 +100,7 @@ body{
 
 #container .celda6{
   padding: 9px;
-  margin: 5%;
+  margin: 3%;
   background-color:#000000;
   border-radius: 5px;
   grid-column:1/5 ;
